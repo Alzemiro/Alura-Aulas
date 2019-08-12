@@ -5,35 +5,44 @@ body {
     line-height: 1.5;
 }
 
-h1,
-h2 {
+h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
 main div {
     width: 720px;
     margin: auto;
+    padding: 30px 0;
 }
 
 main h1 {
+    font-size: 60px;
     text-align: center;
     background-color: #851944;
     color: #fff;
     padding: 25px;
     border: 10px solid #000;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 p {
     text-align: justify;
+    margin: 20px 0;
 }
 
 blockquote {
     background-color: #D9E5E3;
     padding: 16px;
     border: 10px solid #C2ccca;
-    margin: 0;
+    margin: 20px 40px;
     width: 250px;
-    box-sizing: border-box;
+    box-sizing: border-box; /*server para basear o tamanho do elemento contando sua borda (para ficar realmente com 250px)*/ 
 }
 
 #footer-black {
@@ -54,8 +63,11 @@ aside {
     background-color: #3C1D3D;
     color: #F2FFFC;
     text-align: center;
+}
 
-
+aside h1{
+    font-size: 30px;
+    margin-bottom: 25px;
 }
 
 aside a {
@@ -67,3 +79,16 @@ aside a {
 ul {
     list-style-type: none;
 }
+
+blockquote, aside, footer{
+    padding:20px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+em{
+    font-style: italic;
+}
+

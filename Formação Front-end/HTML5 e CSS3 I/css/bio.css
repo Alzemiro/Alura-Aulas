@@ -1,0 +1,15 @@
+blockquote {
+    background-color: #D9E5E3;
+    padding: 16px;
+    border: 10px solid #C2ccca;
+    margin: 20px 40px;
+    width: 250px;
+    box-sizing: border-box; /*server para basear o tamanho do elemento contando sua borda (para ficar realmente com 250px)*/ 
+
+}
+
+cite {
+	font-style: italic;
+	float: right;
+}
+

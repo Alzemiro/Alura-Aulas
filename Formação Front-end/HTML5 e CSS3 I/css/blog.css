@@ -1,0 +1,14 @@
+.leia-mais{
+    font-size: 25px;
+    margin: 15px;
+    padding: 8px;
+    background-color:#E6E7E8;
+    text-align: center;
+    display: block;
+}
+
+.artigos article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}

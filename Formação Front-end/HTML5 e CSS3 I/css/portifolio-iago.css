@@ -1,0 +1,22 @@
+.port-cases{
+    padding: 20px;
+    display: inline-block;
+    margin: 0 0 20px 20px; 
+    text-align: center;  
+    width: 350px;
+    background-color: #FAFFFC;
+    
+}
+
+.bmw, .ibm {
+    /*position: absolute;*/    
+    border: 8px solid black;    
+    
+    
+}
+
+.g1, .uol{      
+    border: 8px solid black;    
+    
+}
+

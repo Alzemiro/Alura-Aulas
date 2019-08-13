@@ -5,28 +5,29 @@ body {
     line-height: 1.5;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-.div-centralizado{
+.container {
     width: 720px;
     margin: auto;
     padding: 30px 0;
 }
 
-.cabecalho {
+.titulo-principal {
     font-size: 60px;
     text-align: center;
     background-color: #851944;
     color: #fff;
     padding: 25px;
-    border: 10px solid #000;
+    border-bottom: 10px solid #000;
     margin: 0;
     text-transform: uppercase;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
     clear: both;
@@ -37,20 +38,14 @@ p {
     margin: 20px 0;
 }
 
-blockquote {
-    background-color: #D9E5E3;
-    padding: 16px;
-    border: 10px solid #C2ccca;
-    margin: 20px 40px;
-    width: 250px;
-    box-sizing: border-box; /*server para basear o tamanho do elemento contando sua borda (para ficar realmente com 250px)*/ 
-
-}
-
-.footer-black {
+.rodape-pagina {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 nav a {
@@ -69,7 +64,7 @@ main a {
     text-transform: lowercase;
 }
 
-aside h1{
+aside h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
@@ -89,56 +84,67 @@ ul {
     list-style-type: none;
 }
 
-blockquote, aside, footer{
-    padding:20px;
+blockquote,
+aside,
+footer {
+    padding: 20px;
 }
 
 strong {
     font-weight: bold;
 }
 
-em{
+em {
     font-style: italic;
 }
 
-.artigos article {
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
-
-.leia-mais{
-    font-size: 25px;
-    margin: 15px;
-    padding: 8px;
-    background-color:#E6E7E8;
-    text-align: center;
-    display: block;
-}
-
-.icone-sociais a{
+.icone-sociais a {
     width: 40px;
     height: 40px;
     display: inline-block;
     color: transparent;
 }
 
-.Github{
-    background-image: url('github.png');
+.Github {
+    background-image: url('../img/github.png');
 }
 
-.Twitter{
-    background-image: url('twitter.png');
+.Twitter {
+    background-image: url('../img/twitter.png');
 }
 
-.Linkedin{
-    background-image: url('linkedin.png');
+.Linkedin {
+    background-image: url('../img/linkedin.png');
 }
 
-.citacao-bio-fiat{
-    float: right;
-}
 
-.citacao-bio-petro {
+main {
     float: left;
+    width: 85%;
+    padding-bottom: 80px;
+}
+
+.minha-foto,
+.navegacao-site {
+    float: right;
+    box-sizing: border-box;
+    border-left: 10px solid black;
+    border-bottom: 10px solid black;
+}
+
+.minha-foto {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navegacao-site {
+    position: absolute;
+    top: 310px;
+    right: 0;
+
+}
+
+footer {
+    clear: both;
 }

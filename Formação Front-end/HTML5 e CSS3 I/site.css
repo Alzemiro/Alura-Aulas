@@ -9,13 +9,13 @@ h1, h2 {
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
 
-main div {
+.div-centralizado{
     width: 720px;
     margin: auto;
     padding: 30px 0;
 }
 
-main h1 {
+.cabecalho {
     font-size: 60px;
     text-align: center;
     background-color: #851944;
@@ -29,6 +29,7 @@ main h1 {
 h2{
     font-size: 30px;
     font-family: 'Open Sans Condensed', sans-serif;
+    clear: both;
 }
 
 p {
@@ -43,9 +44,10 @@ blockquote {
     margin: 20px 40px;
     width: 250px;
     box-sizing: border-box; /*server para basear o tamanho do elemento contando sua borda (para ficar realmente com 250px)*/ 
+
 }
 
-#footer-black {
+.footer-black {
     background-color: #000;
     color: #F2FFFC;
     padding: 20px;
@@ -59,10 +61,12 @@ main a {
     color: #851944;
 }
 
-aside {
+.navegacao-site {
     background-color: #3C1D3D;
     color: #F2FFFC;
+    padding: 20px;
     text-align: center;
+    text-transform: lowercase;
 }
 
 aside h1{
@@ -75,6 +79,11 @@ aside a {
     font-family: "Open Sans Condensed", sans-serif;
     text-decoration: none;
 }
+
+.icone-sociais li {
+    display: inline-block;
+}
+
 
 ul {
     list-style-type: none;
@@ -92,3 +101,44 @@ em{
     font-style: italic;
 }
 
+.artigos article {
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.leia-mais{
+    font-size: 25px;
+    margin: 15px;
+    padding: 8px;
+    background-color:#E6E7E8;
+    text-align: center;
+    display: block;
+}
+
+.icone-sociais a{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    color: transparent;
+}
+
+.Github{
+    background-image: url('github.png');
+}
+
+.Twitter{
+    background-image: url('twitter.png');
+}
+
+.Linkedin{
+    background-image: url('linkedin.png');
+}
+
+.citacao-bio-fiat{
+    float: right;
+}
+
+.citacao-bio-petro {
+    float: left;
+}

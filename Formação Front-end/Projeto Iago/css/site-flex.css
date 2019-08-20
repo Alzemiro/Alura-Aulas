@@ -1,0 +1,25 @@
+body{
+    font-family: Poppins, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header{
+    background: #353434;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;    
+    padding: 20px;
+}
+
+.menu{
+    display: flex;    
+}
+
+.menu li{
+    margin: 10px;
+}

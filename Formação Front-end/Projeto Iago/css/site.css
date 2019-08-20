@@ -1,0 +1,44 @@
+body{
+    font-family: 'Poppins', sans-serif;    
+}
+
+
+
+.menu-navegacao{
+    margin-left: 1em;
+    float: left;
+}
+.menu{
+    font-size: 1.5em;
+}
+
+.menu-navegacao li:nth-child(1n+1){
+    padding-top: 10px;
+}
+
+figure img {
+    max-width: 30%;
+    max-height: auto !important;
+    margin-left: 1em;
+    border-radius: 50%;
+    border: 0.20em outset black;   
+}
+
+a:-webkit-any-link{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;    
+}
+
+.redes-sociais li{
+    display: inline-block;
+    background-image: no-repeat;        
+}
+
+
+
+.barra-lateral{
+    width: 40em;
+    height: 100em;
+    background-color: aqua;       
+}
